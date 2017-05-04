@@ -1,0 +1,169 @@
+/* Custom CSS */
+.navbar {
+  background-color: #ffc0cb;
+  z-index: 9999;
+  color: #ff3355;
+  font-size: 2em;
+  font-family:'Tangerine',Arial,serif;font-weight:400;
+  height: 65px;
+}
+
+.navbar-inverse{
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  letter-spacing: 0.05em;
+  color: #ff3355;
+  padding-bottom: 20px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #ff3355 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: white !important;
+  background-color: #ff99aa !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #F9E32D !important;
+}
+
+.body-custom {
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(-90deg, pink, pink, pink, white); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(-90deg, pink, pink, pink, white); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(-90deg, pink, pink, pink, white); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(-90deg, pink, pink, pink, white); /* Standard syntax (must be last) */
+}
+
+.itens-cat ul li:hover {
+  color: white !important;
+  background-color: pink !important;
+}
+
+.itens-cat ul li a:hover {
+  text-decoration: none;
+}
+
+.qrcode {
+  width: 150px;
+  height: 150px;
+}
+
+.left-bar-custom {
+  margin-left: -50px;
+}
+
+.panel-primary {
+  border-color: #ffc0cb;
+}
+
+.panel-primary>.panel-heading {
+    color: #ffffff;
+    background-color: #ffc0cb;
+    border-color: #ffc0cb;
+}
+
+.panel-primary>.panel-heading>.panel-title {
+    color: #8c8c8c;
+    font-size: 1.75em;
+    font-family:'Tangerine',Arial,serif;font-weight:400;
+    letter-spacing: 0.05em;
+}
+
+.panel-shadow {
+    padding: 15px;
+    box-shadow: -5px 5px 5px silver;
+}
+
+.nav-linge li {
+  white-space: nowrap;
+  background: pink;
+}
+
+.nav-linge img {
+  display: none;
+  background: pink;
+}
+
+.login-linge {
+  padding-top: 0.20em;
+}
+
+#nav-categ {
+  white-space: nowrap;
+  min-height: 48px;
+  text-align: center;
+  background: pink;
+  padding: 0.75em;
+  background: -webkit-linear-gradient(360deg, pink, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(360deg, pink, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(360deg, pink, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(360deg, pink, white); /* Standard syntax (must be last) */
+}
+
+#nav-categ ul{
+  list-style:none;
+}
+
+#nav-categ ul li{
+  display: inline;
+}
+
+#nav-categ ul li a{
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  font-family:'Tangerine',Arial,serif;font-weight:400;
+  text-decoration: none;
+}
+
+#nav-categ .left-bar h2, .EstListCat li {
+  border-bottom: 0px;
+} 
+
+.itens-cat-nav ul li:hover {
+  background-color: none !important;
+}
+
+.itens-cat-nav ul li a:hover {
+  text-decoration: none;
+  color: #ff99aa !important;
+}
+
+#footer-diamond {
+  background-image: url("https://www.rumo.com.br/lojas/00033555/images/Fotolia_117921446_S.jpg");
+  background-repeat: fixed no-repeat;
+  -webkit-background-size: cover; -o-background-size: cover; -moz-background-size: cover; background-size: cover; 
+}
+
+#idBadgeAllFC {
+  display: none;
+}
+
+.FooterTecFastCommerce {
+  display: none;
+}
+
+.contact-address {
+  vertical-align: middle;
+}
+
+.div-contact-address {
+  color: #515967;
+}
+
+.row {
+  margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 6.25px;
+    left: 10px;
+    margin-top: -5px;
+    margin-left: -6.25px;
+  }

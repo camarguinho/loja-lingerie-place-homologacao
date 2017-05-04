@@ -1,0 +1,115 @@
+<!-- Includes CSS -->
+<script language=JavaScript src=<BaseLoja>htm/SimulaFreteFC.js></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/style.css">');</script>
+
+<link rel="stylesheet" href="/wave/V3/waveMin.css?cccfc=1">
+<script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/jquery_ui.css">');</script>
+<!--[if IE]><style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style><![endif]-->
+<!-- Includes Javascript -->
+<script src='<PathTo file="htm/JurosParcelas.js">'></script>
+<script src='<PathTo file="htm/LojaLib.js">'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src='<PathTo file="htm/js/autosuggestTbar.js">'></script>
+<script src='<PathTo file="htm/js/autosuggest.js">'></script>
+<script src='<PathTo file="htm/js/ScrollToTheTop.js">'></script>
+<script src='<PathTo file="htm/js/TinyNav.js">'></script>
+<script>iItensCesta=<QtdCesta>;</script>
+<script>$( "body" ).attr( "oncontextmenu", "return false" );</script>
+
+<div id="topo" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top body-custom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.lingerieplace.com.br" id="logo">
+              <img class="img-rounded logo" src="https://www.rumo.com.br/lojas/00033555/images/1_lingerie_place_logo_on_transparent_187x57.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+            <ul class="nav navbar-nav navbar-right nav-linge">
+                <li class="login-linge"><tag-FCHeaderSocialLogin></li>
+                <li><tag-FCHeaderMenuAccount></li>
+                <li><tag-FCHeaderMenuTrack></li>
+                <li><tag-FCHeaderMenuContact></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+</div>
+
+<br/><br/><br/><br/>
+
+<!-- Begin nav categories -->
+<div id="nav-categ">
+  <div class="row">
+    <div class="col-sm-12 itens-cat-nav">
+      <ListPathCat out="10">
+    </div>
+  </div>
+</div>
+<!-- End nav categories -->
+
+<!-- Begin: Toolbar -->
+<div class="FCToolBar body-custom">
+  <div class="FCToolBarContainer">
+    <tag-FCHeaderToolBarLogo>
+    <tag-FCHeaderToolBarSearch>
+    <tag-FCHeaderToolBarCart>
+  </div>
+
+  <div class="row" style="position: fixed; bottom: 75px; right: 10px; opacity: 1; cursor: pointer;">
+      <a href="#topo" title="Topo" id="buttom-up">
+        <img src="https://www.rumo.com.br/lojas/00033555/images/up.png" alt="Topo"> 
+      </a>
+      <p class="text-center">Topo</p>
+    </div>
+  </div>
+  <script>var w=jQuery(window).width();w>1024&&ToolbarCartExec();</script>
+</div>
+<!-- End: Toolbar -->
+
+<!-- Chat -->
+<script>
+function MostraChatLoja(){popup=window.open("http://www.rumo.com.br/sistema/ChatLogin.asp?IDLoja=<IDLoja>","Chat","top=20,left=20,height=280,width=390,scrollbars=no,resizable=yes");popup.focus();return void(0);}</script>
+<div class="row" style="position: fixed; bottom: 75px; left: 10px; opacity: 1; cursor: pointer;">
+<a href='javascript:MostraChatLoja()'><img src="https://www.rumo.com.br/lojas/00033555/images/chat.png" alt="Chat"></a>
+<p class="text-center">Chat</p>
+</div>
+<!-- Chat -->
+
+
+<!-- Frete -->
+<script type=""text/javascript"">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+</script>
+<!-- Frete -->
+
+
+<!-- Receive Banner Home -->
+<div id="FC-ShowHomeBanners"></div>
+<!-- End Banner Home -->
+
+<div class="FullSpaceFC"></div>
+
+<script>MobileMenuClick();</script>
+
+<!-- Begin Aside BarraEsquerda.htm - Close Rodape.htm - Don't remove -->
+<div class="MainContainer">
+  <div class="row">
+
+    
