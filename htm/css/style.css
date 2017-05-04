@@ -257,14 +257,15 @@ li.dropdown {
 
 #mySidenav a {
     position: absolute;
-    left: -80px;
+    left: -115px;
     transition: 0.3s;
     padding: 15px;
-    width: 100px;
+    width: 125px;
     text-decoration: none;
     font-size: 20px;
     color: white;
     border-radius: 0 5px 5px 0;
+    text-align: right;
 }
 
 #mySidenav a:hover {
