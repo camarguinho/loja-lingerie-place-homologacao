@@ -37,6 +37,7 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: white !important;
   background-color: #ff99aa !important;
+  text-decoration: none;
 }
 
 .navbar-default .navbar-toggle {
