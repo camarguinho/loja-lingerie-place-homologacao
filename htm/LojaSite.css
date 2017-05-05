@@ -462,7 +462,7 @@ a #HeaderCartTotalFC{color:#ff3355;<tag-FCCSSColor18>;position:relative;top:3px;
 
 /* ProdDet SocialLinks */
 .SocialProdLinks{float:right;max-width:300px;min-height:30px;margin:5px 0 0 0;}
-.FooterSocialIcons{margin:initial !important;max-width:150px;}
+.FooterSocialIcons{margin:initial !important;}
 .ProdRating{float:left;}
 .ProdRating a{text-decoration:underline;color:<tag-FCCSSColor7>;}
 .ProdRating + .ProdRating{padding:16px 0 0 7px !important;}
