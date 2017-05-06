@@ -107,6 +107,11 @@
   padding-top: 0.20em;
 }
 
+.sub-itens {
+  font-size: 2em;
+  text-align: left;
+}
+
 #nav-categ {
   white-space: nowrap;
   min-height: 48px;

@@ -55,14 +55,14 @@ IDLojaNum='<IDLojaNum>';
                 <li><tag-FCHeaderMenuAccount></li>
                 <li><tag-FCHeaderMenuTrack></li>
                 <li><tag-FCHeaderMenuContact></li>
-                <li class="dropdown">
+                <li class="dropdown sub-itens">
                   <script>
                    if(""!="<NomeCliente>")
                     {document.write("<a class='dropdown-toggle' data-toggle='dropdown'><NomeCliente><span class='caret'></span></a>")}
                    else
                     {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login<span class='caret'></span></a>")}
                   </script>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu nav-linge">
                     <li><a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a></li>
 
                     <li><a href="/addProduto.asp?idloja=33937">Itens: <QtdCesta></a></li>
