@@ -53,7 +53,6 @@ IDLojaNum='<IDLojaNum>';
         <div class="collapse navbar-collapse nav-linge" id="bs-example-navbar-collapse-1" >
             <ul class="nav navbar-nav navbar-right" style="background-color: pink">
                 <li><tag-FCHeaderMenuAccount></li>
-                <li><tag-FCHeaderMenuTrack></li>
                 <li><tag-FCHeaderMenuContact></li>
                 <li class="dropdown">
                   <script>
@@ -63,6 +62,8 @@ IDLojaNum='<IDLojaNum>';
                     {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login <span class='caret'></span></a>")}
                   </script>
                   <ul class="dropdown-menu" style="font-size: 0.75em;">
+                    <li><tag-FCHeaderMenuTrack></li>
+                  
                     <li><a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a></li>
 
                     <li><a href="/addProduto.asp?idloja=33937">Itens: <QtdCesta></a></li>
