@@ -93,16 +93,6 @@
     box-shadow: -5px 5px 5px silver;
 }
 
-.nav-linge li {
-  white-space: nowrap;
-  background: pink;
-}
-
-.nav-linge img {
-  display: none;
-  background: pink;
-}
-
 .login-linge {
   padding-top: 0.20em;
 }
