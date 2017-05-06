@@ -20,6 +20,14 @@
   height: 50px;
 }
 
+.navbar-nav>li>a {
+  text-align: right;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
 .navbar-inverse{
   border-color: transparent;
 }
@@ -43,7 +51,6 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #F9E32D !important;
-  text-align: right;
 }
 
 
