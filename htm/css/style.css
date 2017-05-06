@@ -43,7 +43,9 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #F9E32D !important;
+  text-align: right;
 }
+
 
 .body-custom {
       background: red; /* For browsers that do not support gradients */
