@@ -92,7 +92,7 @@ IDLojaNum='<IDLojaNum>';
   </div>
 
   <div class="row" style="position: fixed; bottom: 110px; right: 20px; opacity: 1; cursor: pointer;">
-      <a href="#topo" title="Topo" id="buttom-up">
+      <a href="#myPage" title="Topo" id="buttom-up">
         <img src="https://www.rumo.com.br/lojas/00034777/images/up.png" alt="Topo" title="Topo"> 
       </a>
     </div>
@@ -126,7 +126,7 @@ IDLojaNum='<IDLojaNum>';
 <script>
   $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, div a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
