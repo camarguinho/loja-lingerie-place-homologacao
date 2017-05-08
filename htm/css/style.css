@@ -144,6 +144,10 @@
   -webkit-background-size: cover; -o-background-size: cover; -moz-background-size: cover; background-size: cover; 
 }
 
+#footer-diamond li a:hover {
+  text-decoration: none;
+}
+
 #idBadgeAllFC {
   display: none;
 }
