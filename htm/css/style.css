@@ -150,6 +150,7 @@
 
 #footer-diamond li a:hover, .dropdown:hover .dropbtn {
     background-color: transparent;
+    text-decoration: none;
 }
 
 #idBadgeAllFC {
