@@ -20,10 +20,6 @@
   height: 50px;
 }
 
-.navbar-fixed-top, .navbar-fixed-bottom {
-    position: fixed;
-}
-
 .navbar-inverse{
   border-color: transparent;
 }
