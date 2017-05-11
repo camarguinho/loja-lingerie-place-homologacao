@@ -215,6 +215,17 @@ li.dropdown {
     background-color: #555
 }
 
-.navbar-toggle {
-  padding: 0px;
+.btn_custom {
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: #333;
+    border: 0;
+    box-shadow: 0 0 5px 0 #ccc;
+    text-transform: capitalize;
+    outline-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1.1111rem 0;
+    display: block;
 }
