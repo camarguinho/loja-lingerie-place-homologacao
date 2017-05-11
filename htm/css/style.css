@@ -97,36 +97,6 @@
 .login-linge {
   padding-top: 0.20em;
 }
-#nav-categ {
-  white-space: nowrap;
-  min-height: 48px;
-  text-align: center;
-  background: pink;
-  padding: 0.75em;
-  background: -webkit-linear-gradient(360deg, pink, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(360deg, pink, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(360deg, pink, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(360deg, pink, white); /* Standard syntax (must be last) */
-}
-
-#nav-categ ul{
-  list-style:none;
-}
-
-#nav-categ ul li{
-  display: inline;
-}
-
-#nav-categ ul li a{
-  font-size: 1.75em;
-  letter-spacing: 0.1em;
-  font-family:'Tangerine',Arial,serif;font-weight:400;
-  text-decoration: none;
-}
-
-#nav-categ .left-bar h2, .EstListCat li {
-  border-bottom: 0px;
-} 
 
 .itens-cat-nav ul li:hover {
   background-color: none !important;
