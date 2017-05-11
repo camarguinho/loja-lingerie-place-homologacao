@@ -256,3 +256,7 @@ li.dropdown {
     top: 290px;
     background-color: #ff4d67;
 }
+
+.navbar-toggle {
+  padding: 0px;
+}
