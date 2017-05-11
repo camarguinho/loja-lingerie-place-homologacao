@@ -16,7 +16,7 @@
   color: #ff3355;
   font-size: 2em;
   font-family:'Tangerine',Arial,serif;font-weight:400;
-  height: 50px;
+  height: 56px;
 }
 
 .navbar-inverse{
@@ -38,6 +38,7 @@
   color: white !important;
   background-color: #ff99aa !important;
   text-decoration: none;
+  height: 56px;
 }
 
 .navbar-default .navbar-toggle {
