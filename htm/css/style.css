@@ -1,13 +1,7 @@
 /* Custom CSS */
 .header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
+    max-width: 100%;
+    height: auto;
     text-align: center;
   }
 
