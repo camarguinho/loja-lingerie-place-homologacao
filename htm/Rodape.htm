@@ -143,3 +143,22 @@
 <script src="<PathTo file="htm/js/nprogress.js">"></script>
 <script>fnProgressBarLoading();</script>
 
+<!-- Begin: Toolbar -->
+<div class="FCToolBar body-custom">
+  <div class="row" style="position: fixed; bottom: 110px; right: 20px; opacity: 1; cursor: pointer;">
+      <a href="#myPage" title="Topo" id="buttom-up">
+        <img src="https://www.rumo.com.br/lojas/00034777/images/up.png" alt="Topo" title="Topo"> 
+      </a>
+    </div>
+  </div>
+</div>
+<!-- End: Toolbar -->
+
+<!-- Chat -->
+<script>
+function MostraChatLoja(){popup=window.open("http://www.rumo.com.br/sistema/ChatLogin.asp?IDLoja=<IDLoja>","Chat","top=20,left=20,height=280,width=390,scrollbars=no,resizable=yes");popup.focus();return void(0);}</script>
+<div class="row" style="position: fixed; bottom: 55px; right: 20px; opacity: 1; cursor: pointer;">
+<a href='javascript:MostraChatLoja()'><img src="https://www.rumo.com.br/lojas/00034777/images/chat.png" alt="Chat" title="Chat"></a>
+</div>
+<!-- Chat -->
+
