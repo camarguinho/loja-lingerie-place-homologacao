@@ -43,6 +43,7 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #F9E32D !important;
+  padding: 0px;
 }
 
 
