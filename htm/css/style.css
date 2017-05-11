@@ -255,17 +255,3 @@ li.dropdown {
     top: 290px;
     background-color: #ff4d67;
 }
-
-.btn btn-default{
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  font-size: 15px;
-  color: #333;
-  border: 0;
-  text-transform: capitalize;
-  outline-color: transparent;
-  cursor: pointer;
-  text-decoration: none;
-  display: block;
-}
