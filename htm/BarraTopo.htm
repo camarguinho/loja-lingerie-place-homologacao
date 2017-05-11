@@ -37,91 +37,26 @@
 
   <div id="myPage" class="container" data-spy="scroll" data-target=".navbar" data-offset="60">
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top body-custom">
+    <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a href="http://www.lingerieplace.com.br" id="logo">
-            <img class="img-rounded logo" src="https://www.rumo.com.br/lojas/00034777/images/1_lingerie_place_logo_on_transparent_150x46.png" alt="logo">
-          </a>
+          <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
-      
-        <div class="navbar-collapse collapse navbar-right" id="myNavbar1">
-          <!--<form class="navbar-form navbar-left" style="height:40px; font-family: Verdana">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Pesquisar..." size="40">
-              <div class="input-group-btn">
-                <button class="btn btn-default" type="submit">
-                  <i class="glyphicon glyphicon-search"></i>
-                </button>
-              </div>
-            </div>
-          </form>-->
-
-          <ul class="nav navbar-nav navbar-right" style="background-color: pink;">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown">Categorias <span class='caret'></span></a>
-              <ul class="dropdown-menu" style="font-size: 0.75em;">
-                 <li>
-                  <a href="/prod,idloja,34777,idcategoria,261883,calcinhas">Calcinhas</a>
-                </li>
-                <li>
-                  <a href="/prod,idloja,34777,idcategoria,261884,conjuntos">Conjuntos</a>
-                </li>
-                <li>
-                  <a href="/prod,idloja,34777,idcategoria,261885,espartilho">Espartilho</a>
-                </li>
-                <li>
-                  <a href="/prod,idloja,34777,idcategoria,261886,linha-noite">Linha Noite</a>
-                </li>
-                <li>
-                  <a href="/prod,idloja,34777,idcategoria,261887,soutien">Soutien</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown">Op&ccedil;&otilde;es <span class='caret'></span></a>
-              <ul class="dropdown-menu" style="font-size: 0.75em;">
-                <li><tag-FCHeaderMenuContact></li>
-
-                <li><a href="/indique.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu6></a></li>
-
-                <li><a href="/newsletter.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu5></a></li>
-
-                <li><tag-FCFooterProductsMenu3></tli>
-
-                <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>"><tag-FCFooterProductsMenu6></a></tli>
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <script>
-               if(""!="<NomeCliente>")
-                {document.write("<a class='dropdown-toggle' data-toggle='dropdown'><NomeCliente> <span class='caret'></span></a>")}
-               else
-                {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login <span class='caret'></span></a>")}
-              </script>
-              <ul class="dropdown-menu" style="font-size: 0.75em;">
-                <li><a href="/account.asp?idloja=<IDLojaNum>">Meu Cadastro</a></li>
-
-                <li><tag-FCHeaderMenuTrack></li>
-
-                <li><a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a></li>
-
-                <li><a href="/addProduto.asp?idloja=33937">Itens: <QtdCesta></a></li>
-                <script>
-                 if(""!="<NomeCliente>")
-                  {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair</a></li>")}
-                </script>
-              </ul>
-          </li>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
         </ul>
+        <form class="navbar-form navbar-left">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </nav>
 
