@@ -94,6 +94,69 @@ IDLojaNum='<IDLojaNum>';
     </div>
     <!-- /.container -->
   </nav>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-bottom body-custom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.lingerieplace.com.br" id="logo">
+              <img class="img-rounded logo" src="https://www.rumo.com.br/lojas/00034777/images/1_lingerie_place_logo_on_transparent_150x46.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse nav-linge" id="myNavbar2" >
+            <ul class="nav navbar-nav navbar-right" style="background-color: pink">
+                <li><tag-FCHeaderMenuContact></li>
+
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle='dropdown'>Op&ccedil;&otilde;es <span class='caret'></span></a>
+                  <ul class="dropdown-menu" style="font-size: 0.75em;">
+                    <li><a href="/indique.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu6></a></li>
+
+                    <li><a href="/newsletter.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu5></a></li>
+
+                    <li><tag-FCFooterProductsMenu3></tli>
+
+                    <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>"><tag-FCFooterProductsMenu6></a></tli>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <script>
+                   if(""!="<NomeCliente>")
+                    {document.write("<a class='dropdown-toggle' data-toggle='dropdown'><NomeCliente> <span class='caret'></span></a>")}
+                   else
+                    {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login <span class='caret'></span></a>")}
+                  </script>
+                  <ul class="dropdown-menu" style="font-size: 0.75em;">
+                    <li><a href="/account.asp?idloja=<IDLojaNum>">Meu Cadastro</a></li>
+
+                    <li><tag-FCHeaderMenuTrack></li>
+
+                    <li><a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a></li>
+
+                    <li><a href="/addProduto.asp?idloja=33937">Itens: <QtdCesta></a></li>
+                    <script>
+                     if(""!="<NomeCliente>")
+                      {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair</a></li>")}
+                    </script>
+                  </ul>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
 </div>
 
 <br/><br/><br/>
