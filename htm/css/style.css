@@ -54,15 +54,6 @@
       background: linear-gradient(-90deg, pink, pink, pink, white); /* Standard syntax (must be last) */
 }
 
-.itens-cat ul li:hover {
-  color: white !important;
-  background-color: pink !important;
-}
-
-.itens-cat ul li a:hover {
-  text-decoration: none;
-}
-
 .qrcode {
   width: 150px;
   height: 150px;
