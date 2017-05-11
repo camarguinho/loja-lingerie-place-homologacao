@@ -52,8 +52,17 @@ IDLojaNum='<IDLojaNum>';
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse nav-linge" id="myNavbar1" >
             <ul class="nav navbar-nav navbar-right" style="background-color: pink">
-                <li><a href="/account.asp?idloja=<IDLojaNum>">Meu Cadastro</a></li>
                 <li><tag-FCHeaderMenuContact></li>
+
+                <li class="dropdown">
+                  <a class='dropbtn'>OP&Ccedil;&Otilde;ES</a>
+                  <div class="dropdown-content linear-grad">
+                    <a href="/indique.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu6></a>
+                    <a href="/newsletter.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu5></a>
+                    <tag-FCFooterProductsMenu3>
+                    <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><tag-FCFooterProductsMenu6></a>
+                  </div>
+                </li>
 
                 <li class="dropdown">
                   <script>
@@ -63,6 +72,8 @@ IDLojaNum='<IDLojaNum>';
                     {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login <span class='caret'></span></a>")}
                   </script>
                   <ul class="dropdown-menu" style="font-size: 0.75em;">
+                    <li><a href="/account.asp?idloja=<IDLojaNum>">Meu Cadastro</a></li>
+
                     <li><tag-FCHeaderMenuTrack></li>
 
                     <li><a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a></li>
