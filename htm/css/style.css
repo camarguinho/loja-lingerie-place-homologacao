@@ -131,6 +131,10 @@
   color: #515967;
 }
 
+.div-contact-address a:hover {
+  text-decoration: none;
+}
+
 .row {
   margin: 0px;
 }
