@@ -192,3 +192,7 @@ li.dropdown {
     text-decoration: none;
     display: block;
 }
+
+#topcontrol{
+  display: none;
+}
