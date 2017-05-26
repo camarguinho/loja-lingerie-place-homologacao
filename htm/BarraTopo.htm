@@ -67,8 +67,8 @@
           </form>
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown">Categorias <span class='caret'></span></a>
+            <li class="dropdown visible-xs">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <span class='caret'></span></a>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
                  <li>
                   <a href="/prod,idloja,34777,idcategoria,261883,calcinhas">Calcinhas</a>
@@ -165,18 +165,6 @@
     <!-- End nav categories -->
   </div>
 
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-
-  <h2>Animated Sidenav Example</h2>
-  <p>Click on the element below to open the side navigation menu.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
   <br/><br/><br/>
 
   <!-- Begin: bottom up -->
@@ -203,15 +191,6 @@
   <script>MobileMenuClick();</script>
 
   <script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-
-  
     $(document).ready(function(){
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, div a[href='#myPage']").on('click', function(event) {
