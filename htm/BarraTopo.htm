@@ -133,18 +133,20 @@
             <li class="dropdown">
               <script>
                if(""!="<NomeCliente>")
-                {document.write("<a class='dropdown-toggle' data-toggle='dropdown'><NomeCliente> <span class='caret'></span></a>")}
+                {document.write("<a class='dropdown-toggle' data-toggle='dropdown' style='font-family: Verdana; font-size: 0.5em'><NomeCliente> <span class='caret'></span></a>")}
                else
-                {document.write("<a class='dropdown-toggle' data-toggle='dropdown' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>Login <span class='caret'></span></a>")}
+                {document.write("<a class='dropdown-toggle' data-toggle='dropdown' target='_top'>Olá! Acesso. <span class='caret'></span></a>")}
               </script>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
-                <li><a href="/account.asp?idloja=<IDLojaNum>">Meu Cadastro</a></li>
+                <li><a href="/cadastro.asp?idloja=<IDLojaNum>">Login ou Cadastro</a></li>
+
+                <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados</a></li>
 
                 <li><tag-FCHeaderMenuTrack></li>
 
-                <li><a href="/addProduto.asp?idloja=34777">Sacola: R$ <ValorCesta></a></li>
+                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta></a></li>
 
-                <li><a href="/addProduto.asp?idloja=34777">Itens: <QtdCesta></a></li>
+                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Itens: <QtdCesta></a></li>
                 <script>
                  if(""!="<NomeCliente>")
                   {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair</a></li>")}
