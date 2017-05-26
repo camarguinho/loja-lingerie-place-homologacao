@@ -208,3 +208,5 @@ li.dropdown {
 .bag-img {
   padding-top: 5px;
 }
+
+.glyphicons:before{font-size:18px;color:black;}
