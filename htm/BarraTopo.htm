@@ -115,11 +115,15 @@
                 {document.write("<a class='dropdown-toggle' data-toggle='dropdown' target='_top'>Olá, visitante! <span class='caret'></span></a>")}
               </script>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
-                <li><a href="/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1">Login ou Cadastro <span class="glyphicons glyphicons-log-in"></span></a></li>
+                <script>
+                 if(""=="<NomeCliente>")
+                  {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicons glyphicons-log-in'></span></a></li>")}
+                </script>
 
                 <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados <span class="glyphicons glyphicons-notes-2"></span></a></li>
 
-                <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1#Orders">Meus Pedidos <span class="glyphicons glyphicons-cargo"></span></a></li>
+                <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1
+                ">Meus Pedidos <span class="glyphicons glyphicons-cargo"></span></a></li>
 
                 <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta> <span class="glyphicons glyphicons-shopping-bag"></span></a></li>
 
