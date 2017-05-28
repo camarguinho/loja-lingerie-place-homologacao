@@ -210,3 +210,7 @@ li.dropdown {
 }
 
 .glyphicons:before{font-size:18px;color:black;}
+
+.align-justify{
+  text-align: justify;
+}

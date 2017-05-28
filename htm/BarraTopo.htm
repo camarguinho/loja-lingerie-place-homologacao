@@ -57,7 +57,7 @@
       
         <div class="collapse navbar-collapse navbar-right" id="myNavbar1" style="background-color: pink">
 
-        <a href="/addProduto.asp?idloja=34777"><img class="img-fluid slide-image bag-img" src="https://www.rumo.com.br/lojas/00034777/images/bag.png" style="font-family: Verdana; padding-top: 5px;"> <span class="badge bag"><QtdCesta></span></a>
+        <a href="/addProduto.asp?idloja=<IDLojaNum>"><img class="img-fluid slide-image bag-img" src="https://www.rumo.com.br/lojas/00034777/images/bag.png" style="font-family: Verdana; padding-top: 5px;"> <span class="badge bag"><QtdCesta></span></a>
 
           <form name=FormBuscaSimples method=GET action="ListaProdutos.asp" class="navbar-form navbar-left" style="height:40px; font-family: Verdana;">
             <div class="input-group">
@@ -71,23 +71,23 @@
           </form>
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown">Categorias <span class='caret'></span></a>
+            <li class="dropdown visible-xs">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias <span class='caret'></span></a>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
                  <li>
-                  <a href="/prod,idloja,34777,idcategoria,261883,calcinhas">Calcinhas</a>
+                  <a href="/prod,idloja,<IDLojaNum>,idcategoria,261883,calcinhas">Calcinhas</a>
                 </li>
                 <li>
-                  <a href="/prod,idloja,34777,idcategoria,261884,conjuntos">Conjuntos</a>
+                  <a href="/prod,idloja,<IDLojaNum>,idcategoria,261884,conjuntos">Conjuntos</a>
                 </li>
                 <li>
-                  <a href="/prod,idloja,34777,idcategoria,261885,espartilho">Espartilho</a>
+                  <a href="/prod,idloja,<IDLojaNum>,idcategoria,261885,espartilho">Espartilho</a>
                 </li>
                 <li>
-                  <a href="/prod,idloja,34777,idcategoria,261886,linha-noite">Linha Noite</a>
+                  <a href="/prod,idloja,<IDLojaNum>,idcategoria,261886,linha-noite">Linha Noite</a>
                 </li>
                 <li>
-                  <a href="/prod,idloja,34777,idcategoria,261887,soutien">Soutien</a>
+                  <a href="/prod,idloja,<IDLojaNum>,idcategoria,261887,soutien">Soutien</a>
                 </li>
               </ul>
             </li>
