@@ -209,8 +209,14 @@ li.dropdown {
   padding-top: 5px;
 }
 
-.glyphicons:before{font-size:18px;color:black;}
+.glyphicons:before {
+  font-size:18px;color:black;
+}
 
-.align-justify{
+.align-justify {
   text-align: justify;
+}
+
+.padding-lists-help {
+  padding-left: 2em;
 }
