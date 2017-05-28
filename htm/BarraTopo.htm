@@ -17,10 +17,6 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <link type="text/css" rel="stylesheet" href="/icons/GlyphiconsV2/font/glyphicons.css" media="all">
-
-  <link type="text/css" rel="stylesheet" href="/icons/GlyphiconsV2/font/style.css" media="all">
-
   <link rel="stylesheet" href="/wave/V3/waveMin.css?cccfc=1">
 
   <script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/jquery_ui.css">');</script>
@@ -95,15 +91,15 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Op&ccedil;&otilde;es <span class='caret'></span></a>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
-                <li><a href="/faleconosco.asp?idloja=<IDLojaNum>">Contato <span class="glyphicons glyphicons-envelope"></span></a></li>
+                <li><a href="/faleconosco.asp?idloja=<IDLojaNum>">Contato <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
 
-                <li><a href="/indique.asp?idloja=<IDLojaNum>">Indique a Loja <span class="glyphicons glyphicons-star-empty"></span></a></li>
+                <li><a href="/indique.asp?idloja=<IDLojaNum>">Indique a Loja <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></a></li>
 
-                <li><a href="/newsletter.asp?idloja=<IDLojaNum>">Newsletter <span class="glyphicons glyphicons-newspaper"></span></a></li>
+                <li><a href="/newsletter.asp?idloja=<IDLojaNum>">Newsletter <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span></a></li>
 
-                <li><a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm">Promo&ccedil;&otilde;es <span class="glyphicons glyphicons-tags"></span></a></li>
+                <li><a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm">Promo&ccedil;&otilde;es <span class="glyphicon glyphicon-tags" aria-hidden="true"></span></a></li>
 
-                <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca Detalhada <span class="glyphicons glyphicons-search"></span></a></tli>
+                <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca Detalhada <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></tli>
               </ul>
             </li>
 
@@ -117,20 +113,20 @@
               <ul class="dropdown-menu" style="font-size: 0.75em;">
                 <script>
                  if(""=="<NomeCliente>")
-                  {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicons glyphicons-log-in'></span></a></li>")}
+                  {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span></a></li>")}
                 </script>
 
-                <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados <span class="glyphicons glyphicons-notes-2"></span></a></li>
+                <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
 
                 <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1
-                ">Meus Pedidos <span class="glyphicons glyphicons-cargo"></span></a></li>
+                ">Meus Pedidos <span class="glyphicon glyphicon-gift" aria-hidden="true"></span></a></li>
 
-                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta> <span class="glyphicons glyphicons-shopping-bag"></span></a></li>
+                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta> <span class="glyphicon glyphicon-usd" aria-hidden="true"></span></a></li>
 
-                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Itens: <QtdCesta> <span class="glyphicons glyphicons-shopping-cart"></span></a></li>
+                <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Itens: <QtdCesta> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
                 <script>
                  if(""!="<NomeCliente>")
-                  {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair <span class='glyphicons glyphicons-log-out'></span></a></li>")}
+                  {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair <span class='glyphicon glyphicon-log-out' aria-hidden='true'></span></a></li>")}
                 </script>
               </ul>
             </li>
