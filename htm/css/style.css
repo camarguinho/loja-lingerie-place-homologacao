@@ -1,4 +1,8 @@
 /* Custom CSS */
+body{
+  position: relative;
+}
+
 .header {
     position: relative;
     width: 100%;
