@@ -34,6 +34,15 @@
   <script>iItensCesta=<QtdCesta>;</script>
   <!--<script>$( "body" ).attr( "oncontextmenu", "return false" );</script>-->
 
+  <div id="mySidenav" class="sidenav visible-xs">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a onclick="closeNav()" href="/c/calcinhas-49045962">Calcinhas</a>
+    <a onclick="closeNav()" href="/c/conjuntos-90584963">Conjuntos</a>
+    <a onclick="closeNav()" href="/c/espartilho-19904727">Espartilhos</a>
+    <a onclick="closeNav()" href="/c/roupas-de-dormir-48032779">Linha Noite</a>
+    <a onclick="closeNav()" href="/c/soutien-5440921">Soutien</a>
+  </div>
+
   <div id="myPage" class="container" data-spy="scroll" data-target=".navbar" data-offset="60">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top body-custom">
@@ -149,18 +158,6 @@
     <!-- End nav categories -->
   </div>
 
-  <div id="mySidenav" class="sidenav visible-xs">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-    <a onclick="closeNav()" href="/c/calcinhas-49045962">Calcinhas</a>
-    <a onclick="closeNav()" href="/c/conjuntos-90584963">Conjuntos</a>
-    <a onclick="closeNav()" href="/c/espartilho-19904727">Espartilhos</a>
-    <a onclick="closeNav()" href="/c/roupas-de-dormir-48032779">Linha Noite</a>
-    <a onclick="closeNav()" href="/c/soutien-5440921">Soutien</a>
-  </div>
-
-
-
   <br/><br/><br/>
 
   <!-- Begin: bottom up -->
@@ -222,6 +219,5 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("myPage").style.marginLeft= "0";
-        document.body.style.backgroundColor = "white";
     }
     </script>
