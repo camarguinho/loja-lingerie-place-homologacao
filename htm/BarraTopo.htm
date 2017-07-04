@@ -34,7 +34,18 @@
   <script>iItensCesta=<QtdCesta>;</script>
   <!--<script>$( "body" ).attr( "oncontextmenu", "return false" );</script>-->
 
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
   <div id="myPage" class="container" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top body-custom">
       <div class="container-fluid">
@@ -170,6 +181,8 @@
     <!-- End nav categories -->
   </div>
 
+
+
   <br/><br/><br/>
 
   <!-- Begin: bottom up -->
@@ -221,3 +234,17 @@
     });
   })
   </script>
+
+  <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("myPage").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("myPage").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+    }
+    </script>
