@@ -36,6 +36,48 @@
 
   <div id="mySidenav" class="sidenav visible-xs">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <br><br>
+
+    <script>
+     if(""!="<NomeCliente>")
+      {document.write("<a onclick='closeNav()'>Olá, <NomeCliente></a>")}
+     else
+      {document.write("<a onclick='closeNav()'>Olá, visitante!</a>")}
+    </script>
+
+    <script>
+     if(""=="<NomeCliente>")
+      {document.write("<a onclick='closeNav()' href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'>&nbsp;</span>Login ou Cadastro </a>")}
+    </script>
+
+    <a onclick="closeNav()" href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true">&nbsp;</span>Meus Dados</a>
+
+    <a onclick="closeNav()" href="/account.asp?idloja=<IDLojaNum>&orders=1
+    "><span class="glyphicon glyphicon-gift" aria-hidden="true">&nbsp;</span>Meus Pedidos</a>
+
+    <a onclick="closeNav()" href="/addProduto.asp?idloja=<IDLojaNum>"><ValorCesta> <span class="glyphicon glyphicon-usd" aria-hidden="true">&nbsp;</span>Sacola: R$</a>
+
+    <a onclick="closeNav()" href="/addProduto.asp?idloja=<IDLojaNum>"><QtdCesta> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true">&nbsp;</span>Itens:</a>
+                
+    <script>
+     if(""!="<NomeCliente>")
+      {document.write("<a onclick='closeNav()' href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1'><span class='glyphicon glyphicon-log-out' aria-hidden='true'>&nbsp;</span>Sair</a>")}
+    </script>
+
+    <br><hr>
+
+    <a onclick="closeNav()" href="/faleconosco.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Contato</a>
+
+    <a onclick="closeNav()" href="/indique.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-star-empty" aria-hidden="true">&nbsp;</span>Indique a Loja</a>
+
+    <a onclick="closeNav()" href="/newsletter.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true">&nbsp;</span>Newsletter</a>
+
+    <a onclick="closeNav()" href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm"><span class="glyphicon glyphicon-tags" aria-hidden="true">&nbsp;</span>Promo&ccedil;&otilde;es</a>
+
+    <a onclick="closeNav()" href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true">&nbsp;</span>Busca Detalhada</a>
+
+    <br><hr>
+
     <a onclick="closeNav()" href="/c/calcinhas-49045962">Calcinhas</a>
     <a onclick="closeNav()" href="/c/conjuntos-90584963">Conjuntos</a>
     <a onclick="closeNav()" href="/c/espartilho-19904727">Espartilhos</a>
@@ -74,7 +116,7 @@
             </div>
           </form>
 
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right hidden-xs">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Op&ccedil;&otilde;es <span class='caret'></span></a>
               <ul class="dropdown-menu" style="font-size: 0.75em;">
@@ -86,7 +128,7 @@
 
                 <li><a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm">Promo&ccedil;&otilde;es <span class="glyphicon glyphicon-tags" aria-hidden="true"></span></a></li>
 
-                <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca Detalhada <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></tli>
+                <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca Detalhada <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
               </ul>
             </li>
 
@@ -212,8 +254,8 @@
 
   <script>
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("myPage").style.marginLeft = "250px";
+        document.getElementById("mySidenav").style.width = "200px";
+        document.getElementById("myPage").style.marginLeft = "200px";
     }
 
     function closeNav() {
