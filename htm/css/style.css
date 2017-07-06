@@ -266,5 +266,5 @@ li.dropdown {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav a {font-size: 16px;}
+  .sidenav a {font-size: 12px;}
 }
