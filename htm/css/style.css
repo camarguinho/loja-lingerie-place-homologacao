@@ -233,7 +233,7 @@ li.dropdown {
     position: fixed;
     z-index: 16;
     top: 0;
-    left: 0;
+    right: 0;
     background-color:  #ffe6ea;
     overflow-x: hidden;
     transition: 0.5s;
@@ -267,4 +267,12 @@ li.dropdown {
 
 @media screen and (max-height: 450px) {
   .sidenav a {font-size: 0.75em;}
+}
+
+#mySidenav a {
+  text-decoration: none;
+}
+
+#mySidenav a:hover {
+  background-color: #ff3355;
 }
