@@ -142,15 +142,17 @@
 <!-- End Home -->
 
 <div class="row">
-  <div id="newsPage" class="col-sm-12">
+  <div class="titlenews text-center">
+    Cadastre-se e receba novidades e promo&ccedil;&otilde;es incr&iacute;veis!
+  </div>
+</div>
+
+<div class="row">
+  <div id="newsPage" class="col-sm-12 header">
     <div class="col-sm-6">
       &nbsp;
     </div>
     <div class="col-sm-6">
-      <div class="row">
-        <span class="newsTittle">Cadastre-se e recebe novidades e ofertas imperdíveis!</span>  
-      </div>
-
       <div class="row">
         <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();">
           <input type=hidden name=IDLoja value="<idloja>">
@@ -163,8 +165,9 @@
 
           <label class="sr-only" for="inlineFormInputGroup">E-mail</label>
           <input type="text" class="form-control" id="inlineFormInputGroup" required name=Email placeholder="E-mail">
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
+          <button type="submit" class="form-control btn btn-primary">Cadastrar</button>
         </form>
+        <br><br><br><br>
       </div>      
     </div>
   </div>
