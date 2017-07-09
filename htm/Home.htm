@@ -143,25 +143,30 @@
 
 <div class="row">
   <div id="newsPage" class="col-sm-12">
-    <span>Torne-se membro do nosso clube de assinantes e receba novidades diretamente em seu e-mail. &Eacute; r&aacute;pido, f&aacute;cil e gratuito!</span><br><br>
-
-    <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();">
-
-      <input type=hidden name=IDLoja value="<idloja>">
-      <input type=hidden name=Y value="<Y>">
-      <input type=hidden name=FormatoHTML value="True">
-      <input type=hidden name=EnviarAssinante value="Enviar">
-
-      <label class="sr-only" for="inlineFormInput">Nome</label>
-      <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" required name=NomeAssinante placeholder="Nome">
-
-      <label class="sr-only" for="inlineFormInputGroup">E-mail</label>
-      <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-        <input type="text" class="form-control" id="inlineFormInputGroup" required name=Email placeholder="E-mail">
+    <div class="col-sm-6">
+      &nbsp;
+    </div>
+    <div class="col-sm-6">
+      <div class="row">
+        <span class="newsTittle">Cadastre-se e recebe novidades e ofertas imperdíveis!</span>  
       </div>
 
-      <button type="submit" class="btn btn-primary">Cadastrar</button>
-    </form>
+      <div class="row">
+        <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();">
+          <input type=hidden name=IDLoja value="<idloja>">
+          <input type=hidden name=Y value="<Y>">
+          <input type=hidden name=FormatoHTML value="True">
+          <input type=hidden name=EnviarAssinante value="Enviar">
+
+          <label class="sr-only" for="inlineFormInput">Nome</label>
+          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" required name=NomeAssinante placeholder="Nome">
+
+          <label class="sr-only" for="inlineFormInputGroup">E-mail</label>
+          <input type="text" class="form-control" id="inlineFormInputGroup" required name=Email placeholder="E-mail">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+      </div>      
+    </div>
   </div>
 </div>
 
