@@ -276,3 +276,7 @@ li.dropdown {
 #mySidenav a:hover {
   background-color: #ff3355;
 }
+
+#newsPage {
+  background-image: url('https://www.rumo.com.br/lojas/00034777/images/newsletter-page-min.jpg');
+}
