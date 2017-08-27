@@ -23,6 +23,14 @@ body{
   height: 56px;
 }
 
+.navbar-footer {
+  background-color: #ffc0cb;
+  z-index: 9999;
+  color: #ff3355;
+  height: 45px;
+  padding-top: 2.5px;
+}
+
 .navbar-inverse{
   border-color: transparent;
 }
