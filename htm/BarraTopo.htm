@@ -248,17 +248,27 @@
      </a>
   </div>
 
+  <div class="row hidden-xs" style="position: fixed; bottom: 185px; right: 20px; opacity: 1; cursor: pointer; z-index: 1">
+    <a href="https://web.facebook.com/LingePlace/" target="_blank" id="Facebook">
+      <img height="40px" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/facebook_vector.svg" alt="Facebook" title="Facebook"> 
+    </a>
+  </div>
+
   <div class="row hidden-xs" style="position: fixed; bottom: 142px; right: 20px; opacity: 1; cursor: pointer; z-index: 1">
     <a href="https://lista.mercadolivre.com.br/_CustId_238412084" target="_blank" id="Mercado Livre">
       <img height="40px" class="img-rounded" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/mercado-libre.png" alt="Mercado Livre" title="Mercado Livre">
     </a>
   </div>
 
-  <div class="row hidden-xs" style="position: fixed; bottom: 185px; right: 20px; opacity: 1; cursor: pointer; z-index: 1">
-    <a href="https://web.facebook.com/LingePlace/" target="_blank" id="Facebook">
-      <img height="40px" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/facebook_vector.svg" alt="Facebook" title="Facebook"> 
+  <!-- Chat -->
+  <script>
+  function MostraChatLoja(){popup=window.open("http://www.rumo.com.br/sistema/ChatLogin.asp?IDLoja=<IDLoja>","Chat","top=20,left=20,height=280,width=390,scrollbars=no,resizable=yes");popup.focus();return void(0);}</script>
+  <div class="row" style="position: fixed; bottom: 120px; right: 20px; opacity: 1; cursor: pointer;">
+    <a href='javascript:MostraChatLoja()'>
+      <img height="40px" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/chat.svg" alt="Chat" title="Chat">
     </a>
   </div>
+  <!-- Chat -->
 
   <div class="row" style="position: fixed; bottom: 55px; right: 20px; opacity: 1; cursor: pointer; z-index: 1">
     <a href="#myPage" title="Topo" id="buttom-up">
