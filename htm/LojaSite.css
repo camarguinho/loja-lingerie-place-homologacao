@@ -271,7 +271,7 @@ a #HeaderCartTotalFC{color:#ff3355;<tag-FCCSSColor18>;position:relative;top:3px;
 .DivHomeProd:hover{border-radius:5px;box-shadow:0 0 5px 0 <tag-FCCSSColor10>, 0 3px 0 <tag-FCCSSSecondMainColor>;}
 .DivHomeImagemProd{float:left;padding:0.2em 1em 0.6em 1em;box-sizing: border-box;min-height:120px;}
 .DivHomeImagemProd .EstImgFC{width: 250px;}
-.DivHomeNomeProd{max-width:222px;width:100%;font-size:0.9em;height:40px;box-sizing:border-box;font-family:'Open Sans',verdana,arial;font-weight:400;color:<tag-FCCSSMainColor>; }
+.DivHomeNomeProd{max-width:100%;width:100%;font-size:0.9em;height:40px;box-sizing:border-box;font-family:'Open Sans',verdana,arial;font-weight:400;color:<tag-FCCSSMainColor>; }
 .DivIntHomeProd{float:left;width:50%;}
 .DivHomePriceProd{text-align:left;}
 .DivHomeProd .DivHomeSpy{float:left;margin:3px;}
