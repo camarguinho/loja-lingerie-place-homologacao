@@ -285,6 +285,7 @@ a #HeaderCartTotalFC{color:#ff3355;<tag-FCCSSColor18>;position:relative;top:3px;
 .HomeNomeProd{width:100%;display:block;font-size:14px;height:37px;margin-bottom:20px;font-family:'OpenSansRegular',verdana,arial;color:<tag-FCCSSMainColor>;}
 .prices{margin-top:5px;height:100px;font-family:'Open Sans',verdana,arial;font-weight:400;}
 .prices a, .prices{font-size:28px;position:relative;color:<tag-FCCSSColor16>;}
+.ProdCompraHome img{width:150px;padding:5px 5px 5px 5px;}
 
 /* List - EstiloProduto.htm */
 .ProductStyleULFC h1{color:<tag-FCCSSMainColor>;}
